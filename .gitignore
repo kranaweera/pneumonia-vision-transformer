@@ -1,0 +1,27 @@
+# Image dataset (see data/README.md for how to obtain it)
+chest_xray/
+*.jpeg
+*.jpg
+*.png
+*.bmp
+
+# Trained models / logs
+checkpoints/
+*.pt
+*.pth
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.venv/
+venv/
+env/
+
+# Tooling / IDE
+.idea/
+.vscode/
+.DS_Store
